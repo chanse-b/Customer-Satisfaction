@@ -42,6 +42,7 @@ def plot_model_coefficients(model, feature_names):
     plt.title('Influence of Coefficients on Prediction')
     
     # Adjust layout to make room for feature names
+    
     plt.tight_layout()
     plt.subplots_adjust(left=0.2)  # Adjust this value as needed to prevent cutting off text
     
